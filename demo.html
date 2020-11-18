@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    </head>
+    <body>
+        <script src="/external_api.js"></script>
+        <script>
+            var domain = "video.panamericana.pe";
+            var options = {
+                roomName: "JitsiMeetAPIExample",
+                width: 700,
+                height: 180,
+  noSsl: false,
+                parentNode: undefined,
+                configOverwrite: {},
+                interfaceConfigOverwrite: {
+                    filmStripOnly: true
+                }
+            }
+            var api = new JitsiMeetExternalAPI(domain, options);
+        </script>
+    </body>
+</html>
